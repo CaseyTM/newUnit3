@@ -1,0 +1,28 @@
+<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+
+The weather in Atlanta is <%= weatherObject.main.temp %> degrees
+<style type="text/css">
+	body{
+        width:100px;
+        height:20px;
+        background:#505050;
+        animation:myFirst 1s;
+      -moz-animation:myfirst 1s infinite; /* Firefox */
+    -webkit-animation:myfirst 1s infinite; /* Safari and Chrome */
+      }
+
+
+      @-moz-keyframes myfirst /* Firefox */
+    {
+    0%   {background:#b0b0b0;}
+    50%  {background:#c0c0c0;}
+    100%   {background:#b0b0b0;}
+    }
+
+        @-webkit-keyframes myfirst /* Safari and Chrome */
+    {
+    0%   {background:#b0b0b0;}
+    50%  {background:#c0c0c0;}
+    100%   {background:#b0b0b0;}
+    }
+</style>

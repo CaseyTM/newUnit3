@@ -1,0 +1,85 @@
+body{
+	background-color: #E0FFFF;
+	border: 6px double #C0C0C0;
+	border-radius: 50px;
+	
+}
+
+
+#timer, button, input{
+	width:  23%;
+	display:  block;
+	text-align: center;
+	margin-right: 14px;
+	float: left;
+	height: 100%;
+	font-size: 45px;
+	color: #1E90FF;
+	background-color: #E0FFFF;
+	border-radius: 50px;
+	border: 4px double #C0C0C0;
+	margin-top: 10px;
+}
+button{
+	background-color: #c2b280;
+	color: black;
+}
+#timer{
+	margin-left: 45px;
+}
+
+
+}
+#timer-bar{
+	width: 90%;
+	height: 60px;
+	border-radius: 100px;
+	
+	border: 10px double #C0C0C0;
+
+	
+}
+#game{
+	width: 100%;
+	margin-left: 20%;
+	border: 1px double #C0C0C0;
+	border-width: 4px;
+	border-radius: 100px;
+	margin-top: 15px;
+
+}
+#second-image img{
+	margin-top: 150px;
+	border: 1px double #C0C0C0;
+	border-width: 4px;
+	border-radius: 100px;
+	margin-left: 30%;
+
+}
+#scores-wrapper{
+	display: block;
+	margin: auto;
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	font-size: 75px;
+	font-family: ;
+	color: #1E90FF;
+
+}
+#hi-score, #score, #player-score-list{
+	width: 100%;
+	text-align: right;
+	display: inline-block;
+}
+#game-wrapper{
+	display: block;
+	margin: auto;
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+}
+#start-game:hover{
+	background-color: red;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Canvas Game!</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</style>
+</head>
+<body>
+<div id="timer-bar">
+	<div id="timer">30 seconds</div>
+	<button id="start-game" onclick="startGame();">Start Game</button>
+	<button id="new-player" onclick="makeNewPlayer()">New Player</button>
+	<input id="player-name" type="text" placeholder="Player Name">
+</div>
+<div id="game-wrapper">
+	<canvas id="game"></canvas>
+</div>
+<div id="scores-wrapper">
+	<div id="second-image">
+		<img src="oasis.png">
+	</div>
+	<div id="score">Score ---------> <span id="score-value">0</span> <---</div>
+	<div id="hi-score">High Score --> <span id="hi-score-value">0</span> <---</div>	
+	<div id="player-score-list"></div>
+</div>
+ 
+
+<script type="text/javascript" src="scripts.js"></script>
+
+</body>
+</html>
