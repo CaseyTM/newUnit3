@@ -1,0 +1,23 @@
+body {
+        width:100px;
+        height:20px;
+        background:red;
+        animation:myfirst 5s;
+      -moz-animation:myfirst 5s infinite; /* Firefox */
+    -webkit-animation:myfirst 5s infinite; /* Safari and Chrome */
+      }
+
+
+      @-moz-keyframes myfirst /* Firefox */
+    {
+    0%   {background:red;}
+    50%  {background:yellow;}
+    100%   {background:red;}
+    }
+
+        @-webkit-keyframes myfirst /* Safari and Chrome */
+    {
+    0%   {background:red;}
+    50%  {background:yellow;}
+    100%   {background:red;}
+    }
